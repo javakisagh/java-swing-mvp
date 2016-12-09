@@ -10,6 +10,9 @@
 // Apply the java plugin to add support for Java
 apply plugin: 'java'
 apply plugin: 'eclipse'
+apply plugin: 'application'
+
+mainClassName = 'Library'
 
 // Apply the groovy plugin to also add support for Groovy (needed for Spock)
 apply plugin: 'groovy'
